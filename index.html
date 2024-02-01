@@ -7,17 +7,44 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <article class="sidebar-container">
-        <img src="/img/sidebar.jpg" id="sidebar-img" alt="hero">
+    <aside class="sidebar-container">
+        <img src="/img/sidebar.jpg" id="sidebar-img" alt="sidebar-img">
         <div class="logo-container">
             <div>
                 <img src="/img/logo.png" id="logo" alt="logo">
                 <span>SYNTH</span>
             </div>
-    </article>
-    <article class="signup-form">
-        asdasd
-    </article>
+    </aside>
+    <form>
+        <h1>Sign-up</h1>
+        <div class="input-container">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first-name" required>
+        </div>
+        <div class="input-container">
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last-name" required>
+        </div>
+        <div class="input-container">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="input-container">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required>
+
+        </div>
+        <div class="input-container">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <div class="input-container">
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+        </div>
+        <button type="submit">Create Account</button>
+        <p>Already have an account? <a href="login.html">Login</a></p>
+    </form>
 
     <h1></h1>
 </body>
