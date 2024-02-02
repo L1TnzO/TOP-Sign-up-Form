@@ -6,12 +6,12 @@
 
 @font-face {
     font-family: 'Glitch';
-    src: url('/fonts/GlitchGoblin-2O87v.ttf') format('truetype');
+    src: url('./fonts/GlitchGoblin-2O87v.ttf') format('truetype');
   }
 
 @font-face {
     font-family: 'Hacked';
-    src: url('/fonts/Hacked-KerX.ttf') format('truetype');
+    src: url('./fonts/Hacked-KerX.ttf') format('truetype');
   }
   
 
