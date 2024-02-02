@@ -7,43 +7,53 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <aside class="sidebar-container">
+    <aside id="sidebar-container">
         <img src="/img/sidebar.jpg" id="sidebar-img" alt="sidebar-img">
-        <div class="logo-container">
+        <div id="logo-container">
             <div>
                 <img src="/img/logo.png" id="logo" alt="logo">
                 <span>SYNTH</span>
             </div>
     </aside>
-    <form>
-        <h1>Sign-up</h1>
-        <div class="input-container">
-            <label for="first-name">First Name</label>
-            <input type="text" id="first-name" name="first-name" required>
-        </div>
-        <div class="input-container">
-            <label for="last-name">Last Name</label>
-            <input type="text" id="last-name" name="last-name" required>
-        </div>
-        <div class="input-container">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required>
-        </div>
-        <div class="input-container">
-            <label for="phone">Phone Number</label>
-            <input type="tel" id="phone" name="phone" required>
+    <form id="form-container">
+        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>
+            Sign up <i>now</i> to get started</p>
+        <p>You <i>know</i> you want to</p>
+        
+        <section>
+            <p>Let's do this!</p>
+            <div>
+                <div class="input-container">
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text" id="first-name" name="first-name" required>
+                </div>
+                <div class="input-container">
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text" id="last-name" name="last-name" required>
+                </div>
+                <div class="input-container">
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="input-container">
+                    <label for="phone">PHONE NUMBER</label>
+                    <input type="tel" id="phone" name="phone" required>
+        
+                </div>
+                <div class="input-container">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="input-container">
+                    <label for="confirm-password">CONFIRM PASSWORD</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                </div>
+            </div>
 
-        </div>
-        <div class="input-container">
-            <label for="password">Password</label>
-            <input type="password" id="password" name="password" required>
-        </div>
-        <div class="input-container">
-            <label for="confirm-password">Confirm Password</label>
-            <input type="password" id="confirm-password" name="confirm-password" required>
-        </div>
+        </section>
+        
         <button type="submit">Create Account</button>
-        <p>Already have an account? <a href="login.html">Login</a></p>
+        <p>Already have an account? <a href="login.html">Log in</a></p>
     </form>
 
     <h1></h1>
